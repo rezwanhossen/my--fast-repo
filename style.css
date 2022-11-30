@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     max-width: 100%;
-    background-color: rgb(223, 222, 222);
+    background-color: rgb(214, 210, 210);
     margin: 0;
 }
 
@@ -9,14 +9,18 @@ h1 {
     font-size: 60px;
 }
 
-h1 .orang {
+h2 {
+    font-size: 35px;
+}
+
+.orang {
     color: orangered;
 }
 
 .fast-second {
     display: flex;
     padding: 15px;
-    margin-bottom: 20PX;
+    margin-bottom: 30PX;
 }
 
 .tpo-sec {
@@ -31,14 +35,13 @@ h1 .orang {
 .haf-width img {
     width: 100%;
 
-
 }
 
 .click {
     text-decoration: none;
     background-image: linear-gradient(rgb(255, 106, 79), rgb(250, 116, 53), rgb(233, 152, 60));
     padding: 13px 30px;
-    border-radius: 7%;
+    border-radius: 10px;
     font-weight: 700;
     color: antiquewhite;
 }
@@ -47,5 +50,29 @@ h1 .orang {
     background-image: url(image/bgd.jpg);
     background-repeat: no-repeat;
     background-position: right;
+
+}
+
+.expreance {
+    box-shadow: 10px 20px 40px rgb(233, 3, 214);
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#d1 {
+    border-left: 8px solid green;
+}
+
+#d2 {
+    border-left: 8px solid rgb(122, 4, 233);
+}
+
+footer p {
+    text-align: center;
+    text-shadow: 2px 4px 6px rgb(6, 247, 26);
 
 }
