@@ -1,6 +1,43 @@
-body{
+body {
     font-family: 'Inter', sans-serif;
+    max-width: 900%;
+    padding: 2px;
+    /*background-color: rgb(231, 242, 252);*/
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 60px;
+}
+
+h1 .orang {
+    color: orangered;
+}
+
+section {
+    display: flex;
+    padding: 15px;
+}
+
+.tpo-sec {
+    background-image: url(image/cover\ pag.jpg);
+    background-repeat: no-repeat;
+}
+
+.haf-width {
+    width: 50%;
+}
+
+.haf-width img {
+    width: 100%;
+
+}
+
+.click {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 106, 79), rgb(250, 116, 53), rgb(233, 152, 60));
+    padding: 13px 30px;
+    border-radius: 7%;
+    font-weight: 700;
+    color: antiquewhite;
 }
