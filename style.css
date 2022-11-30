@@ -1,8 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
-    max-width: 900%;
-    padding: 2px;
-    background-color: rgb(253, 250, 231);
+    max-width: 100%;
+    background-color: rgb(223, 222, 222);
     margin: 0;
 }
 
@@ -14,10 +13,10 @@ h1 .orang {
     color: orangered;
 }
 
-section {
+.fast-second {
     display: flex;
     padding: 15px;
-    margin-bottom: 0PX;
+    margin-bottom: 20PX;
 }
 
 .tpo-sec {
